@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastas Caseras</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fff8e6;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #823c18;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #6a2e12;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1em;
+    }
+    .hero {
+      padding: 2em;
+      text-align: center;
+    }
+    .hero button {
+      background-color: #b3531a;
+      color: white;
+      border: none;
+      padding: 0.8em 1.5em;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 2em 1em;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1em;
+      margin-bottom: 1.5em;
+    }
+    .footer {
+      background-color: #823c18;
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    .footer nav a {
+      color: #f0d8c4;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    @media (min-width: 768px) {
+      .section {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pastas Caseras</h1>
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section class="hero" id="inicio">
+    <h2>Auténticas Pastas Caseras</h2>
+    <p>Elaboradas con ingredientes frescos y la receta tradicional que ha pasado de generación en generación.</p>
+    <button>Ver Catálogo</button>
+  </section>
+  <section class="section" id="catalogo">
+    <h2>Nuestro Catálogo</h2>
+    <div class="card">
+      <img src="https://laopinionaustral.com.ar/media/uploads/2024/04/tallarines-receta.jpg" alt="Tallarines">
+      <h3>Tallarines</h3>
+      <p>Elaborados artesanalmente, ideales para cualquier salsa. 100% frescos y caseros.</p>
+    </div>
+    <div class="card">
+      <img src="https://img-global.cpcdn.com/recipes/d414c5c547ad3f2a/1200x630cq70/photo.jpg" alt="Canelones">
+      <h3>Canelones</h3>
+      <p>Rellenos con carne y verduras, listos para hornear. Sabor auténtico en cada bocado.</p>
+    </div>
+    <div class="card">
+      <img src="https://img-global.cpcdn.com/recipes/dbe2b53b4ce8d11f/680x482cq70/triangolini-alla-empanatta-pasta-rellena-tipo-raviolessorrentinos-con-masa-para-empanadas-foto-principal.jpg" alt="Ravioles">
+      <h3>Ravioles</h3>
+      <p>Pasta rellena con diferentes opciones. Cocción rápida, sabor inolvidable.</p>
+    </div>
+  </section>
+  <section class="section" id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+      <h3>📞 Teléfono</h3>
+      <p>¡Llámanos para hacer tu pedido o consultar disponibilidad!</p>
+      <h3><i class="fab fa-whatsapp"></i> WhatsApp</h3>
+      <p><img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px; object-fit: contain;">
+        <a href="https://wa.me/5492364719587?text=Hola!%20Quiero%20hacer%20un%20pedido" style="text-decoration: none; color: inherit;">
+          +54 9 2364 71-9587
+        </a>
+      </p>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>© 2025 Pastas Caseras - Todos los derechos reservados</p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </footer>
+</body>
+</html>
